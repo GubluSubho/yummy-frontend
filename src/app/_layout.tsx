@@ -6,7 +6,7 @@ import { onAuthStateChanged } from 'firebase/auth';
 import * as SplashScreen from 'expo-splash-screen';
 
 import { AnimatedSplashOverlay } from '@/components/animated-icon';
-import { auth } from '../../firebaseConfig';
+import { auth } from '@/firebaseConfig';
 import { CartProvider } from '@/context/cart-context';
 
 SplashScreen.preventAutoHideAsync();

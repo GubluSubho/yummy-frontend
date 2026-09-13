@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, Alert } from 'react-native';
 import { router } from 'expo-router';
 import { sendEmailVerification, signOut } from 'firebase/auth';
-import { auth } from '../../firebaseConfig';
+import { auth } from '@/firebaseConfig';
 import { colors } from '@/constants/colors';
 
 export default function VerifyEmail() {

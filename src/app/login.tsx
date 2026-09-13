@@ -6,7 +6,7 @@ import {
   createUserWithEmailAndPassword,
   sendEmailVerification,
 } from 'firebase/auth';
-import { auth } from '../../firebaseConfig';
+import { auth } from '@/firebaseConfig';
 import { colors } from '@/constants/colors';
 
 export default function Login() {
@@ -73,11 +73,11 @@ export default function Login() {
         </Text>
       </TouchableOpacity>
 
-      <TouchableOpacity onPress={() => setIsSignUp(!isSignUp)}>
-        <Text style={styles.switchText}>
-          {isSignUp ? 'Already have an account? Log In' : "Don't have an account? Sign Up"}
-        </Text>
-      </TouchableOpacity>
+      <TouchableOpacity onPress={() => router.push('/manager-login')}>
+  <Text style={[styles.switchText, { marginTop: 10, color: colors.textSecondary }]}>
+    Restaurant Manager? Login here
+  </Text>
+</TouchableOpacity>
     </View>
   );
 }
