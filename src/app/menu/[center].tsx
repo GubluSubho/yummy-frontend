@@ -14,6 +14,7 @@ const RESTAURANT_IDS: Record<string, string> = {
   ccd: '6a9f627a7468fb0ea3d9d0c9', // Xpress (Café Coffee Day)
   xpress: '6a9f627a7468fb0ea3d9d0c9',
   pandajunction: '6a9f62edc7d1a15dfd33dd92',
+  jumbo: '6aab8d5e72c5cec5d4c376f4',
 };
 
 // The /api/menu/:restaurantId route only returns menu items, not the restaurant's
@@ -24,6 +25,7 @@ const RESTAURANT_NAMES: Record<string, string> = {
   ccd: 'Xpress (Café Coffee Day)',
   xpress: 'Xpress (Café Coffee Day)',
   pandajunction: 'Panda Junction',
+  jumbo: 'Jumbo',
 };
 
 type MenuItem = {

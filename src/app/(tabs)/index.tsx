@@ -6,6 +6,8 @@ const foodCenters = [
   { id: 'ccd', name: 'CCD', fullName: 'Coffee Cafe Day', tagline: 'Fast food, coffee & tea varieties' },
   { id: 'nescafe', name: 'Nescafe', fullName: 'Nescafe Corner', tagline: 'Maggi, pasta, fried rice & more' },
   { id: 'canteen', name: 'Campus Canteen', fullName: 'Campus Canteen', tagline: 'Biryani, boiled egg & home-style food' },
+  { id: 'pandajunction', name: 'Panda Junction', fullName: 'Panda Junction', tagline: 'Chinese favourites & more' },
+  { id: 'jumbo', name: 'Jumbo', fullName: 'Jumbo', tagline: 'Xerox, snacks, drinks & more' },
 ];
 
 export default function ChooseFoodCenter() {

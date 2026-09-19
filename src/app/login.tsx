@@ -72,12 +72,6 @@ export default function Login() {
           {loading ? 'Please wait...' : isSignUp ? 'Sign Up' : 'Log In'}
         </Text>
       </TouchableOpacity>
-
-      <TouchableOpacity onPress={() => router.push('/manager-login')}>
-  <Text style={[styles.switchText, { marginTop: 10, color: colors.textSecondary }]}>
-    Restaurant Manager? Login here
-  </Text>
-</TouchableOpacity>
     </View>
   );
 }
